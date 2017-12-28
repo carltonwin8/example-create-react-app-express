@@ -25,3 +25,5 @@ I used a docker mongodb client and have google docs notes on how to set this up.
   * db.notes.add({title: "title", body: "body of note"})
   * db.notes.find()
   * db.notes.remove({\_id:ObjectId("5a3c52fce3a30d5494a210e1")})
+  * db.users() # or show users
+* docker inspect mongo1 | grep -i ipa # for finding the container id
